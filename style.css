@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0px;
+}
+
+.nl {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+}
+
+.nt {
+  font-weight: 500;
+  font-size: 20px;
+}
+.business {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 92px;
+}
+.left-h1 {
+  font-style: 56px;
+  font-weight: 700px;
+  color: black;
+  margin-top: 92px;
+  font-size: 56px;
+}
+.left-p {
+  color: #636f87;
+  font-style: 18px;
+  font-weight: 400px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.left button {
+  background-color: #1aab7b;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 6px;
+}
+.k {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.kok {
+  justify-content: space-between;
+  border: #636f87 solid 1px;
+  width: 384px;
+  height: 358px;
+  padding: 10px;
+}
+.not {
+  display: flex;
+}
+.kok:hover {
+  background-color: #1aab7b;
+  color: #fff;
+}
+.barli {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 92px;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.king {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 92px;
+  gap: 32px;
+}
+.tt {
+  margin-right: 59.75px;
+  margin-bottom: 20px;
+}
+.pa {
+  margin-bottom: 50px;
+}
+.ko {
+  justify-content: space-between;
+  border: #636f87 solid 1px;
+  width: 384px;
+  height: 358px;
+  padding: 10px;
+}
+.coin {
+  display: flex;
+}
+.ko:hover {
+  background-color: #1aab7b;
+  color: #fff;
+}
+.ip {
+  width: 50px;
+}
+footer {
+  background-color: black;
+  padding-top: 96px;
+  color: #fff;
+  padding-bottom: 96px;
+  margin-top: 51px;
+}
+.footer-wrappper {
+  display: flex;
+  justify-content: space-between;
+}
+.htext {
+  margin-bottom: 31px;
+}
+.icons {
+  display: flex;
+  gap: 40px;
+}
+.leav {
+  font-size: 36px;
+  font-weight: 700px;
+  color: black;
+  text-align: center;
+  margin-top: 111px;
+}
+
+.guis {
+  font-weight: 400px;
+  font-size: 18px;
+  color: #636f87;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 60px;
+}
+.back-img {
+  height: 515px;
+  background-image: url("./images/backgraund.png");
+  background-color: red;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-img form {
+  height: 390px;
+  width: 565px;
+  background-color: black;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+
+  gap: 51px;
+  padding: 37px 29px 58px 72px;
+}
+
+.back-img form input{
+  border: none;
+  background-color: transparent;
+  border-bottom: 3px solid #FFFFFF;
+  padding-bottom: 21px;
+  width: 400px;
+}
+
+.back-img form input::placeholder{
+  color: white;
+  font-size: 15px;
+}
+.button {
+  background-color: #1aab7b;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 6px;
+  margin-left: 30px;
+}
